@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+
+a {
+  color: #070303;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+header{
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #a30b13;
+  height: 9vh;
+  border-bottom-left-radius: 50px; /* Arredonda o canto inferior esquerdo */
+  border-bottom-right-radius: 30px; /* Arredonda o canto inferior direito */
+}
+.alinhamento{
+  display: flex;
+}
+.espaco1{
+  /* display: flex; */
+  margin-left: -20%;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #a30b13;
+  height: 9vh;
+  border-bottom-left-radius: 50px;
+  /* Arredonda o canto inferior esquerdo */
+  border-bottom-right-radius: 30px;
+  /* Arredonda o canto inferior direito */
+}
+.espaco3 {
+  margin-left: 100px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.espaco2 {
+  color: aliceblue;
+  font-size: 40px;
+}
+.bah {
+  margin-left: -1.3%;
+}
+
+.bah2 {
+  margin-right: -1.3%;
+}
+
+h2{
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+}
+input {
+  border-radius: 10px;
+  /* text-align: center; */
+  padding: 3% 3%;
+}
+
+.button-24 {
+  background: #ca3934;
+  border: 1px solid;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.button-24:hover {
+  background-color: #e9433e;
+  color: #ffffff;
+  border: #ca3934;
+}
+
+.center {
+  display: flex;
+  margin-top: 8%;
+  justify-content: center;
+}
+
+.caixa {
+  box-shadow: 0 0 10px;
+  border-radius: 20px;
+  max-width: 40%;
+  width: 23%;
+  border: solid;
+  background-color: rgb(145, 6, 36);
+  color: white;
+  border-color: black;
+}
+
+footer {
+  border: solid;
+  background-color: rgb(44, 40, 40);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5%;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #ca3934;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.custom-file-upload:hover{
+  background-color: #e9433e;
+  color: #ffffff;
+  border: #ca3934;
+}
+
+input[type="file"] {
+  display: none; /* Esconde o input file original */
+}
